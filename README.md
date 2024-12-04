@@ -1,10 +1,3 @@
-Parece que hubo un problema al intentar guardar el archivo. Volveré a intentarlo.
-
-Parece que hay un problema con la creación del archivo para descarga. Sin embargo, puedo proporcionarte el contenido directamente para que lo copies y lo guardes manualmente en un archivo `README.md`. Aquí está el contenido:
-
----
-
-```markdown
 # Proyecto ASIX
 
 Este es un proyecto desarrollado con tecnologías web, diseñado para gestionar información y valoraciones, con funcionalidades implementadas en HTML, CSS, JavaScript, PHP y bases de datos SQL.
@@ -62,7 +55,6 @@ Para ejecutar este proyecto, necesitas lo siguiente:
 ```bash
 git clone https://github.com/usuario/project_asix.git
 cd project_asix
-```
 
 ### **2. Configurar el entorno**
 - **Base de datos:** Importa el archivo `Valoraciones.sql` en tu sistema MySQL:
@@ -109,6 +101,3 @@ Este proyecto está licenciado bajo la **Licencia MIT**. Consulta el archivo `LI
 **Hecho con ❤️ por el equipo de desarrollo ASIX.**
 ```
 
----
-
-Puedes copiar este contenido y pegarlo en un archivo de texto llamado `README.md`. Si necesitas ayuda adicional, avísame. 😊
