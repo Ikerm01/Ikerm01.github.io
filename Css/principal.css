@@ -330,15 +330,6 @@ footer {
 
 /* Estilo para el apartado de valoraciones */
 /* Estilo para el apartado de valoraciones */
-#valoraciones {
-    background-color: #1e1e1e;
-    padding: 10px 10px;
-    border-radius: 10px;
-    margin: 20px auto;
-    max-width: 640px;
-    text-align: center;
-}
-
 .valoraciones-form {
     display: flex;
     flex-direction: column;
@@ -370,20 +361,20 @@ footer {
 }
 
 .valoraciones-form button {
-    padding: 10px 20px;
-    background-color: #ff6f61;
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
     border: none;
-    color: #ffffff;
-    font-size: 18px;
+    border-radius: 50px;
     cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s, transform 0.3s;
-    margin-top: 15px;
+    transition: all 0.3s ease 0s;
 }
 
 .valoraciones-form button:hover {
-    background-color: #ff4a3a;
-    transform: scale(1.05);
+    background-color: #e2f1f8;
+    color: #c269fd;
+    transform: scale(1.1);
 }
 
 .header{
@@ -451,49 +442,51 @@ footer {
 
 .go-top-container {
     position: fixed;
-    bottom: 4rem;
-    width: 6.6rem;
-    height: 6.6;
+    bottom: 2rem;
+    right: 4rem;
+    width: 4rem;
+    height: 4rem;
     z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease, z-index 0.3s ease;
 }
 
 .go-top-button {
-    width: 0rem;
-    height: 0rem;
-    background: #2071b2;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
     border-radius: 50%;
     cursor: pointer;
-    transition: .2s;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
 }
 
-.go-top-button i{
-    position: absolute;
-    font-size: 1.7rem;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    color: #fff;
-    transition: .2s;
+.go-top-button:hover {
+    transform: scale(1.1);
 }
 
-.show{
+.go-top-button i {
+    font-size: 1rem;
+    color: black;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.go-top-container.show {
     z-index: 10;
+    opacity: 1;
 }
 
-.show .go-top-button{
-    animation: popup .3s ease-in-out;
-    width: 6.6rem;
-    height: 6.6rem;
-    z-index: 11;
+.go-top-container.show .go-top-button i {
+    transform: scale(1);
 }
 
-.show i{
-    transform: translate(-50%, -50%) scale(0);
-}
 
 @keyframes popup {
     0%{
@@ -501,11 +494,11 @@ footer {
         height: 0rem;
     }
     50%{
-        width: 8rem;
-        height: 8rem;
+        width: 5rem;
+        height: 5rem;
     }
     100%{
-        width: 6.6rem;
-        height: 6.6rem;
+        width: 4rem;
+        height: 4rem;
     }
 }
