@@ -55,7 +55,7 @@ Para ejecutar este proyecto, necesitas lo siguiente:
 ```bash
 git clone https://github.com/usuario/project_asix.git
 cd project_asix
-2. Configurar el entorno
+### **2. Configurar el entorno**
 
     Base de datos: Importa el archivo Valoraciones.sql en tu sistema MySQL:
 
@@ -63,7 +63,7 @@ cd project_asix
 
     Servidor web: Asegúrate de que el proyecto está ubicado en el directorio raíz de tu servidor web.
 
-3. Configuración adicional
+### **3. Configuración adicional**
 
 Configura los archivos PHP para conectar la base de datos, ajustando las credenciales según tu entorno.
 Uso
