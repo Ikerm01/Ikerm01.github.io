@@ -75,7 +75,7 @@ Uso
         Principal.html: Página para gestionar funcionalidades específicas.
     Ingresa y gestiona datos mediante las funcionalidades provistas.
 
-Contribuir
+## **Contribuir**
 
 Si deseas contribuir al desarrollo de este proyecto, sigue los pasos a continuación:
 
@@ -87,7 +87,8 @@ Si deseas contribuir al desarrollo de este proyecto, sigue los pasos a continuac
     Realiza tus modificaciones y súbelas al repositorio.
     Abre un pull request describiendo tus cambios.
 
-Licencia
+## **Licencia**
+
 
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
