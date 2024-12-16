@@ -52,9 +52,10 @@ Para ejecutar este proyecto, necesitas lo siguiente:
 ## **Instalación**
 
 ### **1. Clonar el repositorio**
-```bash
+
     git clone https://github.com/usuario/project_asix.git
     cd project_asix
+
 ### **2. Configurar el entorno**
 
     Base de datos: Importa el archivo Valoraciones.sql en tu sistema MySQL:
