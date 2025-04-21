@@ -37,6 +37,9 @@ El proyecto incluye los siguientes directorios y archivos principales:
 - **`prueba.txt`**: Archivo de prueba o datos temporales.
 
 ---
+## **Visualizacion rapida de la web**
+Puedes visitar la web en este link:
+https://ikerm01.github.io/
 
 ## **Requisitos**
 
